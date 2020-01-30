@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+.wallpaper{
+  background-image: url(/images/new.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1080px;
+  width: 100%;
+
+}
+.login{
+ 
+  margin-top: 200px;
+  background-color: #0008;
+  padding: 50px;
+  color: white;
+ 
+  
+}
+.btn-default{
+  border:1px solid black;
+  background-color: white !important;
+  color: black !important;
+}
+.dropdown-item{
+  background-color: white !important;
+}
+.well{
+  box-shadow:0px 0px 5px white;
+  margin: 10px;
+  padding: 50px;
+
+
+  background-color: #fff;
+}
+
+#pbutton:hover
+{	border: none;
+	transition: 0.5s;
+  color: #0ff;
+  font-size: 90px;
+  background-color: #0009;
+
+background-blend-mode:                  overlay;
+
+box-shadow: 0px 0px 20px black;
+
+}
+
+
+
+.btn-secondary{
+	background-color: #056;
+border-radius: 0px;
+	border:none;
+	font-size: 25px;
+color:white;
+
+float: right;
+
+
+
+
+
+}
+
+
+body{
+    background-color:white;
+
+}
+
+
+
+
+
+
+
+ul li.active a{
+background-color:white;
+color: black !important;
+border-bottom: 3px solid black;
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px)
+{
+
+
+
+
+	ul li.active a{
+			background-color: transparent;
+
+
+	}
+	.nav-item a{
+		display: inline-block !important;
+		margin: 0px !important;
+		padding: 15px;
+	}
+
+	.navbar-toggler{
+
+
+
+
+	border: none;
+	outline: none !important;
+		box-shadow: none;
+		border:0px;
+	}
+
+
+.navbar{
+	height: 60px;
+
+
+}
+
+ 
+
+	.nav a{
+display: inline-block !important;
+	}
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior:  smooth;
+
+
+}
+
+
+
+
+
+.text1{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
+
+
+
+  .navbar{
+    position: fixed;
+    width: 100%;
+   
+background-color:white !important;
+
+text-align: center;
+
+  }
+
+.navbar-brand{
+background-color: black !important;
+  color:  white !important  ;
+  font-size: 25px;
+text-align: center;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+line-height: normal;
+font-family:  Poppins;
+width: 250px;
+
+
+}
+
+
+
+
+
+.nav-item a{
+color: black !important;
+  font-weight:  bold;
+  text-align: center;
+  margin-left: 10px;
+  
+
+
+
+
+
+}
+
+.nav-item a:hover{
+
+  border-bottom: 3px solid black;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
