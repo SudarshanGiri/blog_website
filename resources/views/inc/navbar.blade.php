@@ -3,10 +3,10 @@
 
 
 
-  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            FirstTech
+            BLOG HUB
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -24,14 +24,9 @@
               <li class="nav-item {{'about' ==request()->path() ? 'active' : ''}}">
                 <a class="nav-link" href="/about">ABOUT</a>
               </li>
-              <li class="nav-item {{'services' ==request()->path() ? 'active' : ''}}"">
-                <a class="nav-link" href="/services">Services</a>
-              </li>
+         
               <li class="nav-item {{'login' ==request()->path() ? 'active' : ''}}">
-                <a class="nav-link" href="/posts">Blog</a>
-              </li>
-              <li class="nav-item {{'portfolio' ==request()->path() ? 'active' : ''}}">
-                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                <a class="nav-link" href="/posts">BLOG</a>
               </li>
       
       

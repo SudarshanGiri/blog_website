@@ -7,9 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>FirstTech</title>
-
-   
+    <title>Blog Hub</title>
 
 
 
@@ -19,18 +17,14 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
-<body>
-    <div id="app">
+<body class="wallpaper">
         
             @include('inc.navbar')
-            <div class="wallpaper">
-            <div class="container">
-                <br><br>
-                @yield('content')
-                @include('inc.messages')
-                
+            <div class="container-fluid main-content">
+                    @yield('content')
+                    @include('inc.messages')
+                    
             </div>
-             </div>
 
             
 
@@ -40,8 +34,7 @@
               
       
            
-        
-    </div>
+
 
 
 

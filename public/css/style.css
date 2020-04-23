@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
+.navbar{
+  height:60px;
+}
 
 .wallpaper{
-  background-image: url(/images/new.jpg);
+  background-image: url(/images/1529610910637.jpg);
   background-position: center;
   background-size: cover;
-  height: 1080px;
+  height: 100vh;
   width: 100%;
+  background-attachment: fixed;
 
 }
-.login{
- 
+.aboutpage{
+  padding: 50px;
+
+  background-color: #fff8;
+  height: 100vh;
+
+  width: 100%;
+}
+
+.main-content{
+  margin-top:60px;
+}
+.login-wrapper{
+ position: static;
   margin-top: 200px;
   background-color: #0008;
   padding: 50px;
@@ -103,7 +118,13 @@ border-bottom: 3px solid black;
 		margin: 0px !important;
 		padding: 15px;
 	}
-
+@media (max-width:700px) {
+  .nav{
+    background-color: white;
+    text-align: center;
+  }
+  
+}
 	.navbar-toggler{
 
 
@@ -115,12 +136,6 @@ border-bottom: 3px solid black;
 		border:0px;
 	}
 
-
-.navbar{
-	height: 60px;
-
-
-}
 
  
 
@@ -158,27 +173,12 @@ html {
 
 
 
-
-
-  .navbar{
-    position: fixed;
-    width: 100%;
-   
-background-color:white !important;
-
-text-align: center;
-
-  }
-
 .navbar-brand{
-background-color: black !important;
-  color:  white !important  ;
-  font-size: 25px;
+color:  black !important  ;
+font-size: 25px;
 text-align: center;
-border-top-right-radius: 30px;
-border-top-left-radius: 30px;
-line-height: normal;
 font-family:  Poppins;
+font-weight: bolder;
 width: 250px;
 
 
