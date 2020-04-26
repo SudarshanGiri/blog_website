@@ -4,7 +4,7 @@
 }
 
 .wallpaper{
-  background-image: url(/images/1529610910637.jpg);
+  background-image: url(/images/Best-laptop-for-travel-blogging.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -25,11 +25,12 @@
   margin-top:60px;
 }
 .login-wrapper{
+  background-color: #0008;
  position: static;
   margin-top: 200px;
-  background-color: #0008;
   padding: 50px;
   color: white;
+  font-family: poppins;
  
   
 }

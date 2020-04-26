@@ -25,7 +25,7 @@
                 <a class="nav-link" href="/about">ABOUT</a>
               </li>
          
-              <li class="nav-item {{'login' ==request()->path() ? 'active' : ''}}">
+              <li class="nav-item {{'posts' ==request()->path() ? 'active' : ''}}">
                 <a class="nav-link" href="/posts">BLOG</a>
               </li>
       
